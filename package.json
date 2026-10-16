@@ -1,0 +1,33 @@
+{
+  "name": "chord-stock-rotation",
+  "version": "0.1.0",
+  "description": "Holds the 3 tokenized stocks with the best volatility-adjusted momentum on Robinhood and rotates once a day, through Chord. Paper by default.",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "loop": "node index.js --loop"
+  },
+  "engines": {
+    "node": ">=20.12"
+  },
+  "keywords": [
+    "ai-agent",
+    "trading-bot",
+    "defi",
+    "mcp",
+    "chord",
+    "tokenized-stocks",
+    "momentum",
+    "robinhood"
+  ],
+  "homepage": "https://github.com/tuantqse90/chord-stock-rotation#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tuantqse90/chord-stock-rotation.git"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "viem": "^2.57.7"
+  }
+}
